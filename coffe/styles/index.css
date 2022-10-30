@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo__coffe {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    background: rgb(255, 253, 253)
+}
+
+.header-container {
+
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+}
+
+.logo__brand {
+    display: flex;
+}
+
+.logo__list {
+    display: flex;
+}
+
+.logo__brand a {
+    display: flex;
+    align-items: baseline;
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 20px;
+}
+
+.logo__list--item {
+    margin-left: 32px;
+}
+
+.logo__list--item a {
+    font-weight: 700;
+    font-size: 12px;
+    color: #83888F;
+}
+
+.main-container {
+    margin-top: 85px;
+    background: #A2A2A2;
+    border-radius: 10px;
+    padding: 117px 0px 116px 85px;
+}
+
+.great {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 72px;
+    color: #FEFCF7;
+    width: 493px;
+    margin: 0px 0px  32px 0px;
+}
+
+.main--great {
+    width: 445px;
+    font-size: 16px;
+    color: #FEFCF7;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+.main--button {
+    background: #0E8784;
+    border-radius: 6px;
+    color: #fff;
+    border: 0;
+    width: 217px;
+    height: 56px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.main--button:hover{
+background:#fff;
+color:#0E8784;
+transition: 1s;
+box-shadow: 1px 1px 1px rgb(155, 154, 154);
+}
+
+/* Collection qismi  */
+.collection{
+    padding-top: 70px;
+}
+.collection--blog{
+    width: 1111px;
+    height: 196px;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+    margin-right: 70px;
+    margin-left: 73px;
+}
+.collection--our{
+    font-family: 'Fraunces', serif;
+font-style: normal;
+font-weight: 900;
+font-size: 150px;
+line-height: 72px;
+text-align: left;
+color: rgba(131, 136, 143,0.2);
+
+}
+.expresso{
+    position: relative;
+    top: -230px;
+}
+.expresso--great {
+    color: #333D4B;
+}
+
+.exspesso-list__item-gran--exper {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+.exspesso-list{
+display: flex;
+gap: 0 30px;
+}
+.exspresso-image{
+    background-image: url(../images/expresso.png);
+    width: 256px;
+    height: 193px;
+}
+.expresso--great{
+    height: 78px;
+    width: 255px;
+    text-align: center;
+color: #333D4B;
+}
+.exspesso-list__item{
+    margin-top: 71px;
+    width: 255px;
+}
